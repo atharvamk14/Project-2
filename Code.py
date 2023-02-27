@@ -1,6 +1,6 @@
 import tweepy
 from transformers import pipeline
-
+from prettytable import PrettyTable
 
 # API keys and access tokens
 consumer_key = 'your_consumer_key'
@@ -16,13 +16,20 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Search for tweets
-tweets = api.search(q='query', count=100)
+tweets = api.search_tweets(q='query', count=100)
 
 # Load the sentiment analysis pipeline
 classifier = pipeline('text-classification', model='cardiffnlp/twitter-roberta-base-emotion')
 
-# Analyze the sentiment of each tweet
+# Create a table to display the results
+table = PrettyTable()
+table.field_names = ['Tweet', 'Sentiment']
+
+# Analyze the sentiment of each tweet and add it to the table
 for tweet in tweets:
     text = tweet.text
     sentiment = classifier(text)[0]['label']
-    print(text, sentiment)
+    table.add_row([text, sentiment])
+
+# Print the table
+print(table))
