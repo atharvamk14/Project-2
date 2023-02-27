@@ -15,11 +15,20 @@ auth.set_access_token(access_token, access_token_secret)
 # Create the API object
 api = tweepy.API(auth)
 
-# Search for tweets
-tweets = api.search_tweets(q='query', count=100)
-
 # Load the sentiment analysis pipeline
 classifier = pipeline('text-classification', model='cardiffnlp/twitter-roberta-base-emotion')
+
+# Prompt the user to enter a valid Twitter handle
+while True:
+    handle = input('Enter a valid Twitter handle (without the @ symbol): ')
+    try:
+        user = api.get_user(handle)
+        break
+    except tweepy.TweepError as e:
+        print('Error:', e)
+
+# Search for tweets
+tweets = api.search_tweets(q=f'from:{handle}', count=100)
 
 # Create a table to display the results
 table = PrettyTable()
@@ -32,4 +41,5 @@ for tweet in tweets:
     table.add_row([text, sentiment])
 
 # Print the table
-print(table))
+print(table)
+
