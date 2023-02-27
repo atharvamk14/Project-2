@@ -1,0 +1,204 @@
+PS C:\Users\AtharvaK> & "C:/Program Files/Python310/python.exe" "c:/Users/AtharvaK/Desktop/TA Work/code 2.py"
+2023-02-27 03:05:24.866073: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2023-02-27 03:05:24.866394: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-02-27 03:05:27.645260: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2023-02-27 03:05:27.645447: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2023-02-27 03:05:27.649221: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: Atharva
+2023-02-27 03:05:27.649400: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: Atharva
+2023-02-27 03:05:27.650039: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-02-27 03:05:27.736599: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 154414080 exceeds 10% of free system memory.
+2023-02-27 03:05:27.905554: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 154414080 exceeds 10% of free system memory.
+2023-02-27 03:05:27.915966: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 154414080 exceeds 10% of free system memory.
+2023-02-27 03:05:29.570795: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 154414080 exceeds 10% of free system memory.
+All model checkpoint layers were used when initializing TFRobertaForSequenceClassification.
+
+All the layers of TFRobertaForSequenceClassification were initialized from the model checkpoint at cardiffnlp/twitter-roberta-base-emotion.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFRobertaForSequenceClassification for predictions without further training.   
++----------------------------------------------------------------------------------------------------------------------------------------------+-----------+
+|                                                                    Tweet                                                                     | Sentiment |
++----------------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| RT @cryptocom: @GJKosh Hello, Graham. Feel free to reach us via DM with your query and your referral code. We would be happy to advise you…  |   anger   |
+|                                            RT @seostratega: 📅 Hoy, en #10LinksAzules (ed. 125):                                             |  optimism |
+|                                                                                                                                              |           |
+|                              • Todo sobre el update de reseñas de producto (que ya afecta a páginas en español)                              |           |
+|                                                                                                                                              |           |
+|                                                                      •…                                                                      |           |
+|                                            Apply for Electronic Certificate of Origin with FIEO❗️                                            |  optimism |
+|                                                                                                                                              |           |
+|                                                         👉Obtain eCoO within an Hour                                                         |           |
+|                                          👉Assistance for Hassle Free Exp… https://t.co/yzg94HADxz                                           |           |
+|                                  RT @akheriaty: 1/ My first Chat GPT query: "What are the dangers of AI?"                                    |   anger   |
+|                                                                                                                                              |           |
+|                                                            Here's the response...                                                            |           |
+| RT @cryptocom: @severia77380581 Hello there! Please contact us via DM with your referral code and query. Our team will be happy to advise y… |   anger   |
+| @Vindabailwar Hi, We tried calling you on your number ending with ****2815. However, our call went unanswered. We w… https://t.co/UYa09HCdUM |    joy    |
+| @UpadhyayaAyushi Hi Ayushi, as informed earlier, we are coordinating with the actual user and we will share the upd… https://t.co/EciPykjCO2 |   anger   |
+|                                       RT @REVV_Racing: As the momentum keeps going at #REVV Racing 🏁                                        |   anger   |
+|                                             There is a saying "If you ain’t first, you’re last."                                             |           |
+|                                                                                                                                              |           |
+|                                                           Here at #REVV even las…                                                            |           |
+|                                       RT @REVV_Racing: As the momentum keeps going at #REVV Racing 🏁                                        |   anger   |
+|                                             There is a saying "If you ain’t first, you’re last."                                             |           |
+|                                                                                                                                              |           |
+|                                                           Here at #REVV even las…                                                            |           |
+|                                          British relations with Europe were causing issues in 1970!                                          |    joy    |
+|                                                             trade union in 1970                                                              |           |
+|                                         blamed the common market for rising… https://t.co/iCNIFEGsAA                                         |           |
+|                           RT @TheNewIndian_in: 'Taking up the case with #German authorities to find a way forward'                           |   anger   |
+|                                                                                                                                              |           |
+|                                              MEA responds to @TheNewIndian_in's query on #baby…                                              |           |
+|                                              RT @AuthorHKCarlton: #SinfulSunday #eroticromance                                               |  optimism |
+|                                                        𝑺𝒊𝒏 𝑩𝒊𝒏✝️A priest is tempted...                                                        |           |
+|                                                                                                                                              |           |
+|                                                𝑺𝒘𝒂𝒑 ~ a mad crush leads to a red-hot affair💋                                                |           |
+|                                                                                                                                              |           |
+|                                                                A chef &amp;…                                                                 |           |
+|                                  @FinoPaymntsBank @ashishahuja888 @funngro I want a query please contact me                                  |    joy    |
+|                           RT @TheNewIndian_in: 'Taking up the case with #German authorities to find a way forward'                           |   anger   |
+|                                                                                                                                              |           |
+|                                              MEA responds to @TheNewIndian_in's query on #baby…                                              |           |
+| @CraftyMarine @ProudElephantUS The original query was referring to people driving alone in cars with masks on which… https://t.co/oLrFj50MqN |  sadness  |
+|                      You can now query / interact with #Azure #Databricks from inside VS Code ! https://t.co/VaxaDYh5aK                      |  optimism |
+| RT @puneetreshi: This is the support that the prestigious @Apple is giving to its customer...or  atleast care to respond to the guy's query… |    joy    |
+| RT @cryptocom: @everyonescous1n Hello there! Please send us DM with your referral code and query and our team will be happy to advise you r… |   anger   |
+|                                  RT @akheriaty: 1/ My first Chat GPT query: "What are the dangers of AI?"                                    |   anger   |
+|                                                                                                                                              |           |
+|                                                            Here's the response...                                                            |           |
+| RT @NEARProtocol: The @graphprotocol, the indexing and query layer for the decentralized web integrated with @NEARProtocol last year, enabl… |  optimism |
+|                                                           @jess_farmer Hi Jessica                                                            |  optimism |
+|                                                                                                                                              |           |
+|                             Could you please follow us as we now follow you and kindly DM the full query to us?                              |           |
+|                                                                                                                                              |           |
+|                                                                    Thanks                                                                    |           |
+|                                                                   Stephen                                                                    |           |
+| @sandeepaarmo Apologies for the unpleasant experience and the inconvenience caused. Please elaborate your query and… https://t.co/idwwnMLJpQ |    joy    |
+|                  @ESPNcricinfo AskCricinfo is showing “oops! Something went wrong” for almost every query. Kindly resolve.                   |    joy    |
+| @IDBI_Bank Namaskar, Respected Sir /Madam.  I want to know that Axis Bank Branches are not allowing to withdraw or… https://t.co/Z1NMLeoYJa  |    joy    |
+|                                             mercredi dernierdans le supplément de économie dans                                              |   anger   |
+|                           @le_Parisien, un numéro est entièrement dédié à l’emploi en rég… https://t.co/JpeS3tRqYL                           |           |
+|                                               @Bolemsofficial Thanks for contacting Astropay !                                               |  optimism |
+|                                                                                                                                              |           |
+|                                           Send us your query at: support@astropayok.freshdesk.com                                            |           |
+|                                                                                                                                              |           |
+|                                                                   Regards,                                                                   |           |
+|                                                                   Astropay                                                                   |           |
+| @SaraVic333 I just saw a post on a parenting page with a query re toddler behaviour. Instead of saying just  'my to… https://t.co/yVNGBbhrbF |  sadness  |
+| @DrmDnr @Sunshin07060484 @RailwaySeva Plz look into matter seriously, take strict action a/g OBHS Staff responsible… https://t.co/cdjhpdTLFT |    joy    |
+| @AxisBank Namaskar, Respected Sir /Madam.  I want to know that Axis Bank Branches are not allowing to withdraw or d… https://t.co/EIeyQo5rpy |    joy    |
+|                                                  @JuoiterE Thanks for contacting Astropay !                                                  |  optimism |
+|                                                                                                                                              |           |
+|                                           Send us your query at: support@astropayok.freshdesk.com                                            |           |
+|                                                                                                                                              |           |
+|                                                                   Regards,                                                                   |           |
+|                                                                   Astropay                                                                   |           |
+|                     RT @ppnaravit_home: พรุ่งนี้ #NeverLetMeGoSeries Final EP แล้วน้าาา ไปร่วมดูตอนจบกับปอนด์ และเพื่อนๆ ด้วยกันนะคะ 🫶                     |  optimism |
+|                                                                                                                                              |           |
+|                                                          🔗 https://t.co/ujAseKyi…                                                           |           |
+|                              #Keywords are important as they provide relevance signals to the #searchengines.                                |   anger   |
+|                                                                                                                                              |           |
+|                                          If your web page is relevant the… https://t.co/gl8kkJGpMQ                                           |           |
+| @phool_babu_ Hi Babu, this certainly isn't something we wish for our members to endure. Please be assured that we w… https://t.co/1W320l2kIT |    joy    |
+| RT @ED69517735: @cwraad @teunissen_rob Afgelopen week vroeg ik aan de cardioloog, of het mogelijk was om ongevaccineerd bloed te krijgen, i… |  optimism |
+|                 It's important that you mention in your query that you think you're the next Stephen King. #HorribleWriteTip                 |    joy    |
+|                                                Submit a query letter directly to publishers.                                                 |   anger   |
+|          RT @AzureWeekly: Using #AzureDataFactory orchestrating Kusto query-ingest from Hauke Mallow https://t.co/nGRsRzb7J6 #Azure          |  optimism |
+|                                                                      ／                                                                      |  optimism |
+|                                                     『NUMBERS #天才数学者の事件ファイル                                                      |           |
+|                                                                 シーズン1』                                                                  |           |
+|                                                               水曜、放送開始✨                                                               |           |
+|                                                                      ＼                                                                      |           |
+|                                                                                                                                              |           |
+|                                            #リドリー・スコット ＆ #トニー・スコット 製作総指揮🎬                                             |           |
+|                                                                                                                                              |           |
+|                                                                📆3/1スタート                                                                 |           |
+|                                                                    字幕版                                                                    |           |
+|                                                            毎週(月～金)朝11時～他                                                            |           |
+|                                                                  二カ国語版                                                                  |           |
+|                                                    毎週(月～金)… https://t.co/2ocnezRQDe                                                     |           |
+| The input arguments are query, which is the JPQL string; and params, which is the bound parameter values to the query, each indexed by key.  |   anger   |
+| BRIK je barevná a zábavná kolekce stojanů na deštníky, která se vyznačuje čistým a moderním designem. Stojany jsou… https://t.co/1h9MvE7LPF  |  optimism |
+|                     @ashrafsadiq1gm As per our telephonic conversation dated 27-02 -2022 your query has been addressed.                      |    joy    |
+|                                                                                                                                              |           |
+|                                                   For the detail… https://t.co/JkluX2hA9N                                                    |           |
+|                                         @Nisarah73971138 @MinorityDeptBgk @MIC_Jamkhandi Namaskara,                                          |    joy    |
+|                                                                                                                                              |           |
+|                                In accordance to your query, Please share your NSP ac… https://t.co/McEOg9ID3V                                |           |
+|   @sasaurabhsingh Hello, thank you for your patience. We are looking into your query, and we shall update you shortly. Regards, RBL Bank.    |   anger   |
+| RT @ED69517735: @cwraad @teunissen_rob Afgelopen week vroeg ik aan de cardioloog, of het mogelijk was om ongevaccineerd bloed te krijgen, i… |  optimism |
+| @MegMundell @theideaqueen @davidmbarnett @RikWorth Hmm - one to add to the To Write list (along with graphic novel… https://t.co/ObxaeOLXLP  |  optimism |
+|                                                  อย่าลืมไปโหวตให้ก้อนทนตกันค้าบ 🥰❤️‍🔥🥹💪🏻✌🏻🫶🏻                                                   |  optimism |
+|                                                                                                                                              |           |
+|                                                           https://t.co/B7oHjfAW9I                                                            |           |
+|                                                                                                                                              |           |
+|                                                               #VoteForTRINITY                                                                |           |
+|                                                     #TRINITY_TNT https://t.co/ML1o30QfQO                                                     |           |
+|        RT @branham_sierra: First query rejection from my newest foray into the trenches. Let's do this. #amquerying #WritingCommunity        |   anger   |
+| @ti_prashant Dear customer, apologies for the inconvenience caused to you. Can you please elaborate on your query v… https://t.co/9gOa54OVsW |    joy    |
+|                                        RT @help_delhivery: @raviraj7650 Please elaborate your query.                                         |  sadness  |
+| @rakeshsingh61 Dear customer, apologies for the inconvenience caused to you. Can you please elaborate on your query… https://t.co/IGqY3bTArM |    joy    |
+|            @HonestStoner001 Hi. Please DM us your contact number &amp; email address for our Team to assist with your query. ^TN             |   anger   |
+| @FoxesWi @youre_justben @mtaibbi ...so, you're claim, is that masks stop particles that are 60 to 120 nanometers in… https://t.co/w6tYw46bWf |    joy    |
+| @brightsun2O71 Yeah.. there's a word for such fans.. stalkers. Idek why they expect reply for every random email/qu… https://t.co/y6lfv3lSe5 |    joy    |
+|            @AlphasSeeker Hi, we have sent you a direct message in response to your query. We request you to refer to it. ^Lazypay            |   anger   |
+| @Mehmetege09 Başvurunuz 1-55902280981 numarası ile kayıt alınmıştır, https://t.co/Lq068Zs4sI üzerinden başvuru sonu… https://t.co/AITaVepGTY |  optimism |
+| @yemberzal Dear customer, apologies for the inconvenience caused to you. Can you please elaborate on your query via… https://t.co/HCTX3mCxTb |    joy    |
+| @Bimbola25 @Andyxxyz @MrOdanz Yeah. It's logical to have numbers on your side per house of representatives and all.… https://t.co/fmfATQzDbc |   anger   |
+|         Chef's Garden; Education City, Gate 6، Al Luqta St, Ar Rayyan, Qatar; ★★★★☆ https://t.co/m4leIUVY21 https://t.co/xIy8YIwYQ0          |  optimism |
+|                                     500ft2＋2bedroomShibuya＋Shinjuku3min　　　https://t.co/BRCV6UDfSu …                                     |  optimism |
+| @PFRDAOfficial @DFS_India @FinMinIndia @Protean_Tech  are not ready to resolve the query and they are not aware wha… https://t.co/Svxg64LTxL |    joy    |
+| @peyushbansal I have ordered specs from lenskart and it's going to get delivered after 6 days, whereas per lenskart… https://t.co/w7vESz4o3N |    joy    |
+| @mayurinaik1994 Please contact Passport Branch of Mumbai Police on 022-22620831/7715800000 or E-Mail at srpipasspor… https://t.co/dXjd5Mp5QC |    joy    |
+|                                                             @bk_dipankar Hello,                                                              |   anger   |
+|                                                                                                                                              |           |
+|                                                     Thank you for your time on the call.                                                     |           |
+|                                                                                                                                              |           |
+|                               Pursuant to our conversation, we hope we have addressed… https://t.co/QmOC6jEjEu                               |           |
+|                                              RT @watch_UNEXT_A: ミュージカル『テニスの王子様』                                               |  optimism |
+|                                                       4thシーズン 青学(せいがく)vs氷帝                                                       |           |
+|                                                         交通広告が2/27～3/5で展開✨                                                          |           |
+|                                                                                                                                              |           |
+|                                                                    ▼場所                                                                     |           |
+|                                                   東急田園都市線渋谷駅道玄坂ハッピーボード                                                   |           |
+|                                                           JR池袋駅ロングサイズ池袋                                                           |           |
+|                                                                                                                                              |           |
+|                                                         ※広告掲出に関する駅係員への                                                          |           |
+|                                                             お問い合わせはご遠…                                                              |           |
+|       直前のツイートの問題の正解→①attest:証明する 　　正解→①attest:証明する ②waive:～を放棄する、差し控える ③vicinity:近所 ④query:質問       |    joy    |
+|      「証明する」の意味を表す単語は次の4つのうちどれ？　 ①attest ②waive ③vicinity ④query　　　　　　　　　正解は30秒後の次のツイートへ       |  optimism |
+| @bankofbaroda Namaskar, Respected Sir /Madam.  I want to know that BOB Branches are not allowing to withdraw or dep… https://t.co/h0wpOtFEuI |    joy    |
+| @MrIsraelnkuna @SABCNews @eNCA @Newzroom405 @MbalulaFikile @CyrilRamaphosa Thank you, we will escalate your query a… https://t.co/9Fk11c6L3I |    joy    |
+|                                      RT @maciejwalkowiak: This microservice could have been a SQL query                                      |  sadness  |
+|                                                     @_BMSimpson Query like everyone else                                                     |    joy    |
+| Maximize your fitness potential with Suryatapi Shilajit - the natural supplement that boosts endurance, strength, a… https://t.co/L8BhRoPiVX |   anger   |
+| @screamingmeals the website will probably be in german, but this is the connection i found, idk what day you arrive… https://t.co/1ercRqPvfU |    joy    |
+|                                                       RT @BWII_TNT: Still on trending~                                                       |  optimism |
+|                                                                                                                                              |           |
+|                                               https://t.co/k8LsjXfewG https://t.co/EOlUhjLTh8                                                |           |
+|                                                   RT @sheapgamer: https://t.co/uGDrzOArQU                                                    |  optimism |
+|                        Monster Hunter Rise และ Sunbreak กำลังลดราคาสูงสุด 55% ใน Gamersgate ใส่คูปองคำว่า sheapgamer10 ลดไ…                        |           |
+|                           RT @TheNewIndian_in: 'Taking up the case with #German authorities to find a way forward'                           |   anger   |
+|                                                                                                                                              |           |
+|                                              MEA responds to @TheNewIndian_in's query on #baby…                                              |           |
+|         RT @CAJMHEcom: Cent Asian J Med Hypotheses Ethics (https://t.co/wfFvMoLJap)  is now indexed by DOAJ: https://t.co/TUM64wn67Z         |   anger   |
+|                                                               All efforts of…                                                                |           |
+|                             RT @_olunife: Juicy has forgotten this day so soon??? He’ll answer query ehn😂😂😂😂                             |  optimism |
+|                                                                                                                                              |           |
+|                                                                #OliviaOkoro𓃵                                                                 |           |
+|                                                      #BBTitans https://t.co/ZUFjHROHar                                                       |           |
+|                         @Santosh90423764 Apology for the inconvenience caused. Please elaborate your query with us.                          |    joy    |
+|                                                                                                                                              |           |
+|                                                                                                                                              |           |
+|                                              MEA responds to @TheNewIndian_in's query on #baby…                                              |           |
+|                                                  @raviraj7650 Please elaborate your query.                                                   |    joy    |
+|                                  RT @akheriaty: 1/ My first Chat GPT query: "What are the dangers of AI?"                                    |   anger   |
+|                                                                                                                                              |           |
+|                                                            Here's the response...                                                            |           |
+| @nitesh2k5 Hi Nitesh, we sincerely regret the inconvenience caused to you. We are looking into your query vide refe… https://t.co/en3rE5egXq |  sadness  |
+| @fillpackart Я два года помогал делать Руби конфу в Таиланде. В первый год ушли в минус, во второй - в ноль. Так чт… https://t.co/c5YulgPLPR |  optimism |
+| Links:  Traffic England: https://t.co/GWhkiF0QSO Waze: https://t.co/0QDBoCebjq Google Maps: https://t.co/thEVj1HzTY https://t.co/wwZYdEycrz  |  optimism |
+| Hi Akshay, we sincerely regret the inconvenience caused to you. We are looking into the query vide reference number… https://t.co/rXoTaSfFRk |  sadness  |
+| @rohitramchanda3 Dear supplier, we’re sorry to know that you had an unsatisfactory experience. We request you to sh… https://t.co/AxnZpflpIV |    joy    |
+|                      Dallas; 28MQ+42H, Debarca, Bitola, North Macedonia https://t.co/kGagePpcaR https://t.co/E3iMkSwSuH                      |  optimism |
++----------------------------------------------------------------------------------------------------------------------------------------------+-----------+
+PS C:\Users\AtharvaK>
